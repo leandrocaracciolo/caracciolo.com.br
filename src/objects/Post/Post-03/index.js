@@ -9,15 +9,14 @@ import { Link } from "react-router-dom";
 const Post03 = () => {
   return (
     <StyledPost>
-      <img src="/imgs/posts/01/01.png" alt="Destaque" />
+      <img src="/imgs/posts/03/03-reactjs.png" alt="Destaque" />
       <StyledMargin>
         <PostNumber>03</PostNumber>
-        <PostTitle>Um novo site para atender novos objetivos.</PostTitle>
+        <PostTitle>Enfim, React.JS</PostTitle>
         <PostSubtitle>
-          Resolvi reformular tudo, pois os objetivos da versão anterior não
-          estavam atendendo a demanda que eu necessito atualmente.
+          E é com muita alegria que coloco no ar o primeiro site desenvolvido com React.JS, após duas semanas de estudo intenso, trabalho e muito aprendizado.
         </PostSubtitle>
-        <Link to="Post01">
+        <Link to="Post03">
           <Button>+ Veja mais</Button>
         </Link>
       </StyledMargin>

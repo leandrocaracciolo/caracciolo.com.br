@@ -11,16 +11,16 @@ const Post02 = () => {
     <StyledPost>
       <StyledMargin>
         <PostNumber>02</PostNumber>
-        <PostTitle>Um novo site para atender novos objetivos.</PostTitle>
+        <PostTitle>Subindo versões do site no Git Hub</PostTitle>
         <PostSubtitle>
           Resolvi reformular tudo, pois os objetivos da versão anterior não
           estavam atendendo a demanda que eu necessito atualmente.
         </PostSubtitle>
-        <Link to="Post01">
+        <Link to="Post02">
           <Button>+ Veja mais</Button>
         </Link>
       </StyledMargin>
-      <img src="/imgs/posts/01/01.png" alt="Destaque" />
+      <img src="/imgs/posts/02/02-github.png" alt="GitHub" />
     </StyledPost>
   );
 };

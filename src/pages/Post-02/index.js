@@ -5,10 +5,9 @@ const Post01 = () => {
   return (
     <>
       
-
-      <PostNumber>01</PostNumber>
-      <h2>Um novo site para atender novos objetivos</h2>
-      <StyledImage src="/imgs/posts/01/01.png" alt="Destaque" />
+      <PostNumber>02</PostNumber>
+      <h2>Subindo versões do site no Git Hub</h2>
+      <StyledImage src="/imgs/posts/02/02-github.png" alt="Destaque" />
       <p>
         Olá, se você costuma aparecer por aqui, com certeza notou que o site
         está de cara nova.

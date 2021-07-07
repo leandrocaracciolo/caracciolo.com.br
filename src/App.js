@@ -7,6 +7,8 @@ import { Switch, Route } from "react-router-dom";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
 import Post01 from "./pages/Post-01";
+import Post02 from "./pages/Post-02";
+import Post03 from "./pages/Post-03";
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
             <Route path="/Sobre" component={Sobre} />
             <Route path="/Contato" component={Contato} />
             <Route path="/Post01" component={Post01} />
+            <Route path="/Post02" component={Post02} />
+            <Route path="/Post03" component={Post03} />
           </Switch>
         </StyledMain>
       </StyledContainer>

@@ -5,22 +5,27 @@ const Post01 = () => {
   return (
     <>
       
-
-      <PostNumber>01</PostNumber>
-      <h2>Um novo site para atender novos objetivos</h2>
-      <StyledImage src="/imgs/posts/01/01.png" alt="Destaque" />
+      <PostNumber>03</PostNumber>
+      <h2>Enfim, React.JS</h2>
+      <StyledImage src="/imgs/posts/03/03-reactjs.png" alt="Destaque" />
       <p>
-        Olá, se você costuma aparecer por aqui, com certeza notou que o site
-        está de cara nova.
+      E é com muita alegria que coloco no ar o primeiro site desenvolvido com React.JS, após duas semanas de estudo intenso, trabalho e muito aprendizado.
         <br />
         <br />
-        Resolvi reformular tudo, pois os objetivos da versão anterior não
-        estavam atendendo a demanda que eu necessito atualmente.
+       e de início devo dizer o quão dificil foi entender a nova estrutura de um site criado com esse tecnologia.
         <br />
         <br />
-        Quero estudar novas tecnologias além de conceitos de UI/UX e pretendo
-        implementar todo o conhecimento adquirido aqui. Do jeito que está
-        montado agora eu já consigo fazer isso.
+até entender 
+<br />
+        <br />
+
+Foi essencial ter criado a primeira versão com HTML/CSS e Javascript até para entender um pouco mais de grid e flexbox.
+<br />
+        <br />
+
+O site continua estático e próximo passo é partir para atualizações dinâmicas através de um admin que pretendo criar.
+
+Aos poucos as coisas vão saindo.
       </p>
       <h3>
         Descritivo da primeira versão do site (para efeitos de documentação)

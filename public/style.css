@@ -15,9 +15,12 @@ body {
 
 h2 {
   color: #1cb3bc;
-  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   font-weight: 600;
+}
+
+h3{
+  color: #1cb3bc;
 }
 
 a {
