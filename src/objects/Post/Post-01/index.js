@@ -12,7 +12,7 @@ const Post = () => {
       <img src="/imgs/posts/01/01.png" alt="Código Fonte" />
       <StyledMargin>
         <PostNumber>01</PostNumber>
-        <PostTitle>Um novo site para atender novos objetivos.</PostTitle>
+        <PostTitle>teste</PostTitle>
         <PostSubtitle>
           Resolvi reformular tudo, pois os objetivos da versão anterior não
           estavam atendendo a demanda que eu necessito atualmente.
