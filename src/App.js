@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./objects/Footer";
+import Header from "./objects/Header";
+import Home from "./pages/Home";
+import { StyledContainer, StyledMain } from "./styles";
+import { Switch, Route } from "react-router-dom";
+import Sobre from "./pages/Sobre";
+import Contato from "./pages/Contato";
+import Post01 from "./pages/Post-01";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <StyledContainer>
+        <Header />
+        <StyledMain>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/Sobre" component={Sobre} />
+            <Route path="/Contato" component={Contato} />
+            <Route path="/Post01" component={Post01} />
+          </Switch>
+        </StyledMain>
+      </StyledContainer>
+      <Footer />
     </div>
   );
 }
-
-export default App;
