@@ -9,8 +9,10 @@ const StyledButton = styled.button`
   border: none;
   cursor: pointer;
 
-  a:hover {
-    color: red;
-  }
+
+  &:hover {
+       background: #e95378;
+    }
+
 `;
 export default StyledButton;

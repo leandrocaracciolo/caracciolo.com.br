@@ -7,6 +7,9 @@ const StyledFooter = styled.footer`
   max-width: 100%;
   width: 100%;
   display: block;
+  margin: auto;
+    bottom: 0;
+    position: fixed;
 `;
 
 export default StyledFooter;

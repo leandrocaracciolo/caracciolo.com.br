@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import StyledMenu from "./styles";
 
@@ -14,8 +14,20 @@ const Menu = () => {
 
       menuSection.classList.toggle("on", show);
       show = !show;
+
+
+      function toggle() {
+        let menuzin = document.querySelector(".menu")
+        if (menuzin.style.display === "none") {
+            menuzin.style.display = "block";
+        } else {
+            menuzin.style.display = "none";
+        }
+    }
+
     });
   });
+
 
   return (
     <>
@@ -28,10 +40,10 @@ const Menu = () => {
           </div>
           <nav>
             <ul>
-              <li>
+              <li onClick="toggle()">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li onClick="toggle()">
                 <Link className="fas fa-info" to="Sobre">
                   Sobre
                 </Link>

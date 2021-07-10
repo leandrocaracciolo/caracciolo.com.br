@@ -32,6 +32,18 @@ a:hover {
   color: #b75be8;
 }
 
+p a{
+  color: #000;
+    text-decoration: none;
+    background-color: #B75BE8;
+}
+
+p a:hover{
+  color: #000;
+  background-color: #E95378;
+}
+
+
 ul {
   display: flex;
   padding: 0;
@@ -67,12 +79,13 @@ img {
     object-fit: cover;
     object-position: center;
   }
-}
 
-@media (max-width: 768px) {
   nav {
     display: none;
   }
+}
+
+@media (max-width: 768px) {
 
   .one,
   .two,

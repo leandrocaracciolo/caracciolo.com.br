@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Post = () => {
   return (
     <StyledPost>
-      <img src="/imgs/posts/01/01.png" alt="Código Fonte" />
+      <img src="/imgs/posts/01/01-intro.png" alt="Código Fonte" />
       <StyledMargin>
         <PostNumber>01</PostNumber>
         <PostTitle>Um novo site para atender novos objetivos.</PostTitle>

@@ -8,7 +8,7 @@ const Post01 = () => {
 
       <PostNumber>01</PostNumber>
       <h2>Um novo site para atender novos objetivos</h2>
-      <StyledImage src="/imgs/posts/01/01.png" alt="Destaque" />
+      <StyledImage src="/imgs/posts/01/01-intro.png" alt="Destaque" />
       <p>
         Olá, se você costuma aparecer por aqui, com certeza notou que o site
         está de cara nova.
@@ -21,10 +21,13 @@ const Post01 = () => {
         Quero estudar novas tecnologias além de conceitos de UI/UX e pretendo
         implementar todo o conhecimento adquirido aqui. Do jeito que está
         montado agora eu já consigo fazer isso.
+        <br />
+        <br />
+        <StyledImage src="/imgs/posts/01/01.png" alt="Destaque" />
       </p>
-      <h3>
+        <h3>
         Descritivo da primeira versão do site (para efeitos de documentação)
-      </h3>
+        </h3>
       <p>
         A primeira versão deste site (lançada em 21 de junho de 2021) foi
         construída da forma mais artesanal possível.
@@ -35,7 +38,10 @@ const Post01 = () => {
         usando a trinca html, css e javascript. Essa versão é completamente
         estática, usando páginas internas em html simples mesmo. Pretendo em
         breve refazer o site dinamicamente, só não decidi direito que tecnologia
-        utilizar. A única certeza que tenho é que quero usar React JS no front.
+        <br />    <br />
+
+        <StyledImage src="/imgs/posts/01/01-figma.png" alt="Destaque" />
+
         <br />
         <br />
         Gastei um bom tempo trabalhando na responsividade do site. Ele deveria

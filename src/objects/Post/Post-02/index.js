@@ -3,7 +3,7 @@ import Button from "../../Button";
 import PostNumber from "../../PostNumber";
 import PostTitle from "../../PostTitle";
 import PostSubtitle from "../../SubTitle";
-import { StyledPost, StyledMargin } from "./styles";
+import { StyledPost, StyledMargin, StyledImg } from "./styles";
 import { Link } from "react-router-dom";
 
 const Post02 = () => {
@@ -13,14 +13,13 @@ const Post02 = () => {
         <PostNumber>02</PostNumber>
         <PostTitle>Subindo versões do site no Git Hub</PostTitle>
         <PostSubtitle>
-          Resolvi reformular tudo, pois os objetivos da versão anterior não
-          estavam atendendo a demanda que eu necessito atualmente.
+        E após algumas tentativas, acredito que consegui criar um repositório decente no GitHub para controlar versões deste site.
         </PostSubtitle>
         <Link to="Post02">
           <Button>+ Veja mais</Button>
         </Link>
       </StyledMargin>
-      <img src="/imgs/posts/02/02-github.png" alt="GitHub" />
+      <StyledImg src="/imgs/posts/02/02-github.png" />
     </StyledPost>
   );
 };

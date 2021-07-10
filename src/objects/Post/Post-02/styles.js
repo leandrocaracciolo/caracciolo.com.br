@@ -14,3 +14,9 @@ export const StyledPost = styled.div`
 export const StyledMargin = styled.div`
   margin: 1em;
 `;
+
+export const StyledImg = styled.img`
+@media (max-width: 1024px) {
+ order: -1;
+}
+`
